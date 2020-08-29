@@ -1,0 +1,174 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>AddFriend</title>
+<script type="text/javascript">
+var url = window.location.search;
+if (url != "")
+{
+var slt = url.substring(5,10)
+switch(slt)
+{
+    case "en-us":
+        lge = "English"
+        break;
+    case "zh-cn":
+        lge = "简体中文"
+        break;
+    case "zh-hk":
+        lge = "繁體中文"
+        break;
+    case "zh-tw":
+        lge = "繁體中文"
+        break;
+    case "ru-ru":
+        lge = "русский"
+        break;
+    case "ja-jp":
+        lge = "日本語"
+        break;
+    case "fr-fr":
+        lge = "français"
+        break;
+    case "de-de":
+        lge = "Deutsche"
+        break;
+    default:
+        lge = "English"
+}
+}
+else
+{
+lge = "English"
+}
+switch(lge)
+{
+    case "English":
+        txtbox_1  = "Friends"
+        txtbox_2  = "Verifies"
+        txtbox_3  = "Add"
+        txtbox_4  = "Enter a Username or Number"
+        txtbox_5  = "Find"
+        txtbox_6  = ""
+        txtbox_7  = ""
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+    case "简体中文":
+        txtbox_1  = "好友"
+        txtbox_2  = "验证"
+        txtbox_3  = "添加"
+        txtbox_4  = "输入用户名或号码"
+        txtbox_5  = "查找"
+        txtbox_6  = ""
+        txtbox_7  = ""
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+    case "繁體中文":
+        txtbox_1  = "好友"
+        txtbox_2  = "驗證"
+        txtbox_3  = "添加"
+        txtbox_4  = "輸入用戶名或號碼"
+        txtbox_5  = "搜尋"
+        txtbox_6  = ""
+        txtbox_7  = ""
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+    case "русский":
+        txtbox_1  = "друзья"
+        txtbox_2  = "Проверяет"
+        txtbox_3  = "Добавить"
+        txtbox_4  = "Введите имя пользователя или номер"
+        txtbox_5  = "найти"
+        txtbox_6  = ""
+        txtbox_7  = ""
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+    case "日本語":
+        txtbox_1  = "フレンズ"
+        txtbox_2  = "検証する"
+        txtbox_3  = "追加"
+        txtbox_4  = "ユーザー名または番号を入力してください"
+        txtbox_5  = "探す"
+        txtbox_6  = ""
+        txtbox_7  = ""
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+    case "français":
+        txtbox_1  = "Copains"
+        txtbox_2  = "Vérifie"
+        txtbox_3  = "Ajouter"
+        txtbox_4  = "Entrez un nom d'utilisateur ou un numéro"
+        txtbox_5  = "Trouver"
+        txtbox_6  = ""
+        txtbox_7  = ""
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+    case "Deutsche":
+        txtbox_1  = "Freunde"
+        txtbox_2  = "Überprüft"
+        txtbox_3  = "Hinzufügen"
+        txtbox_4  = "Geben Sie einen Benutzernamen oder eine Nummer ein"
+        txtbox_5  = "Finden"
+        txtbox_6  = ""
+        txtbox_7  = ""
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+    default:
+        txtbox_1  = "Friends"
+        txtbox_2  = "Verifies"
+        txtbox_3  = "Add"
+        txtbox_4  = "Enter a Username or Number"
+        txtbox_5  = "Find"
+        txtbox_6  = ""
+        txtbox_7  = ""
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+}
+</script>
+</head>
+<body>
+<div><p style='font-size:1em;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><a href='http://fscache20.cooles.top/login/friendlist.asp' style='color:blue;'><script type="text/javascript">document.write(txtbox_1)</script></a></b>&nbsp;<b>|</b>&nbsp;<b><a href='http://fscache20.cooles.top/login/verifylist.asp' style='color:blue;'><script type="text/javascript">document.write(txtbox_2)</script></a></b>&nbsp;<b>|</b>&nbsp;<b><script type="text/javascript">document.write(txtbox_3)</script></b></p></div>
+<form method="Get" action="friendadd.asp">
+<div style="float:left;display:inline;width:82%;height:2em;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Unm" id="Unm" placeholder="Enter a Username or Number" style="background-color:#F5F5F5;width:100%;height:100%;font-size:1em;"/>
+<script type="text/javascript">document.getElementById("Unm").placeholder = txtbox_4</script>
+</div>
+<div style="float:left;display:inline;width:4em;height:2em;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="Find" value="Find" style="background-color:#A9A9A9;color:white;width:100%;height:100%;font-size:1em;"/>
+<script type="text/javascript">document.getElementById("Find").value = txtbox_5</script>
+</div>
+</form>
+</body>
+</html>

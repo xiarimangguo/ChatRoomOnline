@@ -1,0 +1,202 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>User Login</title>
+<script type="text/javascript">
+var url = window.location.search;
+if (url != "")
+{
+var slt = url.substring(5,10)
+switch(slt)
+{
+    case "en-us":
+        lge = "English"
+        break;
+    case "zh-cn":
+        lge = "简体中文"
+        break;
+    case "zh-hk":
+        lge = "繁體中文"
+        break;
+    case "zh-tw":
+        lge = "繁體中文"
+        break;
+    case "ru-ru":
+        lge = "русский"
+        break;
+    case "ja-jp":
+        lge = "日本語"
+        break;
+    case "fr-fr":
+        lge = "français"
+        break;
+    case "de-de":
+        lge = "Deutsche"
+        break;
+    default:
+        lge = "English"
+}
+}
+else
+{
+lge = "English"
+}
+switch(lge)
+{
+    case "English":
+        txtbox_1  = "User Login"
+        txtbox_2  = "UserName"
+        txtbox_3  = "PassWord"
+        txtbox_4  = "Login"
+        txtbox_5  = "Don't Our Members?"
+        txtbox_6  = "Go to "
+        txtbox_7  = "Register"
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+    case "简体中文":
+        txtbox_1  = "用户登录"
+        txtbox_2  = "用户名"
+        txtbox_3  = "密码"
+        txtbox_4  = "登录"
+        txtbox_5  = "不是我们的成员?"
+        txtbox_6  = "去 "
+        txtbox_7  = "注册"
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+    case "繁體中文":
+        txtbox_1  = "用戶登入"
+        txtbox_2  = "用戶名"
+        txtbox_3  = "密碼"
+        txtbox_4  = "登入"
+        txtbox_5  = "不是我們的成員?"
+        txtbox_6  = "去 "
+        txtbox_7  = "註冊"
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+    case "русский":
+        txtbox_1  = "Логин пользователя"
+        txtbox_2  = "имя пользователя"
+        txtbox_3  = "пароль"
+        txtbox_4  = "Авторизоваться"
+        txtbox_5  = "Не так ли наши члены?"
+        txtbox_6  = "Перейти к "
+        txtbox_7  = "регистрации"
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+    case "日本語":
+        txtbox_1  = "ユーザーログイン"
+        txtbox_2  = "ユーザー名"
+        txtbox_3  = "パスワード"
+        txtbox_4  = "ログインする"
+        txtbox_5  = "私たちのメンバーではないですか?"
+        txtbox_6  = "に行く "
+        txtbox_7  = "登録"
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+    case "français":
+        txtbox_1  = "Utilisateur en ligne"
+        txtbox_2  = "Nom d'utilisateur"
+        txtbox_3  = "mot de passe"
+        txtbox_4  = "S'identifier"
+        txtbox_5  = "Pas nos membres?"
+        txtbox_6  = "Allez vous "
+        txtbox_7  = "inscrire"
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+    case "Deutsche":
+        txtbox_1  = "Benutzer-Anmeldung"
+        txtbox_2  = "Nutzername"
+        txtbox_3  = "Passwort"
+        txtbox_4  = "Anmeldung"
+        txtbox_5  = "Nicht unsere Mitglieder?"
+        txtbox_6  = "Gehe zu "
+        txtbox_7  = "registrierung"
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+    default:
+        txtbox_1  = "User Login"
+        txtbox_2  = "UserName"
+        txtbox_3  = "PassWord"
+        txtbox_4  = "Login"
+        txtbox_5  = "Don't Our Members?"
+        txtbox_6  = "Go to "
+        txtbox_7  = "Register"
+        txtbox_8  = ""
+        txtbox_9  = ""
+        txtbox_10  = ""
+        txtbox_11  = ""
+        txtbox_12  = ""
+        break;
+}
+</script>
+</head>
+<body>
+<div style="width:100%;height:100%;">
+<div style="width:100%;height:35%;"></div>
+<div style="width:100%;height:20em;">
+<div style="float:left;width:33%;height:100%;"></div>
+<div style="float:left;width:35em;height:100%;border:1px solid gray;">
+<div style="float:left;width:50%;height:100%;">
+<img src="http://fscache20.cooles.top/Upload/Internet.png" style="width:100%;height:100%;"></img>
+</div>
+<div style="float:left;width:50%;height:100%;">
+<div style="float:left;width:100%;height:10%;"></div>
+<div style="float:left;width:100%;height:80%;">
+<center><p><h2><script type="text/javascript">document.write(txtbox_1)</script></h2></p></center>
+<form method="POST" action="login.asp">
+<center><input type="text" name="Unm" id="Unm" style="width:15em;height:2em;background-color:#F5F5F5;" placeholder="UserName"></center>
+<script type="text/javascript">document.getElementById("Unm").placeholder = txtbox_2</script>
+<div style="width:100%;height:0.125em;"></div>
+<center><input type="password" name="Pwd" id="Pwd" style="width:15em;height:2em;background-color:#F5F5F5;" placeholder="PassWord"></center>
+<script type="text/javascript">document.getElementById("Pwd").placeholder = txtbox_3</script>
+<div style="width:100%;height:0.125em;"></div>
+<center><input type="hidden" name="Lge" id="Lge" style="width:0em;height:0em;background-color:#F5F5F5;" value=""></center>
+<script type="text/javascript">document.getElementById("Lge").value = lge</script>
+<div style="width:100%;height:0em;"></div>
+<center><input type="submit" id="Login" value="Login" style="width:15em;height:2em;background-color:#F5F5F5;"></center>
+<script type="text/javascript">document.getElementById("Login").value = txtbox_4</script>
+</form>
+<div style="float:left;width:40%;height:30%;"></div>
+<div style="float:left;width:60%;height:30%;">
+<center><p><script type="text/javascript">document.write(txtbox_5)</script></p></center>
+<center><p><script type="text/javascript">document.write(txtbox_6)</script><a href="http://fscache20.cooles.top/login/register.html" id="Register" style="color:blue;"><script type="text/javascript">document.write(txtbox_7)</script></a> !</p></center>
+<script type="text/javascript">document.getElementById("Register").href = "http://fscache20.cooles.top/login/register.html?lge=" + slt</script>
+</div>
+</div>
+<div style="float:left;width:100%;height:10%;"></div>
+</div>
+</div>
+<div style="float:left;width:35%;height:100%;"></div>
+</div>
+<div style="width:100%;height:35%;"></div>
+</div>
+</body>
+</html>
