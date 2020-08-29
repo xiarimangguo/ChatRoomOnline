@@ -2,15 +2,15 @@
 [中文](https://github.com/xiarimangguo/ChatRoomOnline/blob/master/README/README-CN.md)
 ## About
 *###The project was developed and completed on August 21, 2020.###*  
-This is a web chat room developed using `<font color="red">ASP</font>`.  
+This is a web chat room developed using `ASP`.  
 <br />
-I have implemented the `<font color="red">basic functions</font>` of the chat room,    
+I have implemented the `basic functions` of the chat room,    
 Such As:
 - [x] User Login
 - [x] Chat With All
 - [x] User Register  
 
-In addition, there are some `<font color="red">advanced features</font>`.    
+In addition, there are some `advanced features`.    
 Such As:
 - [x] Online Status Display
 - [x] Member List Display
