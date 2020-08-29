@@ -1,11 +1,25 @@
-# ChatRoomOnline
+# About
+*###The project was developed and completed on August 21, 2020.###*  
 This is a web chat room developed using `ASP`.  
-I have implemented the basic functions of the chat room,  
-**Such As:**  
+I have implemented the `basic functions` of the chat room,  
+### Such As:
+- [x] User Login
+- [x] Chat With All
+- [x] User Register  
 
-- [x] 1
-- [x] 2
-- [x] 3
-- [ ] 4
-- [ ] 5
-- [ ] 6
+In addition, there are some `advanced features`.  
+### Such As:
+- [x] Online Status Display
+- [x] Member List Display
+- [x] Add Friends
+- [x] Friends Add Verification
+- [x] Chat With Friends
+- [x] Delete Friends
+- [x] Find Friends
+- [ ] Create Groups
+- [ ] User Cancellation  
+
+# Demo
+Welcome to my online chat room!!!  
+### **This is the Demo of `ChatRoomOnline`. [Link](http://fscache20.cooles.top/login/login.html?hl=en-us)**  
+Enjoy your visit!
