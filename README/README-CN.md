@@ -1,7 +1,7 @@
 # ChatRoomOnline
 [English](https://github.com/xiarimangguo/ChatRoomOnline/blob/master/README.md)
 ## 关于
-*###The project was developed and completed on August 21, 2020.###*  
+*###该项目于 August 21, 2020 完成开发###*  
 This is a web chat room developed using `ASP`.  
 <br />
 I have implemented the `basic functions` of the chat room,    
