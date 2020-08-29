@@ -20,8 +20,8 @@ Such As:
 - [x] Delete Friends
 - [x] Find Friends
 - [x] Multi-Language Support
-- [ ] Create Groups
-- [ ] User Cancellation  
+- [ ] ~~Create Groups~~
+- [ ] ~~User Cancellation~~  
 
 ## Demo
 Welcome to my online chat room!!!    
