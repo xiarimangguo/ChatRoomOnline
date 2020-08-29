@@ -1,5 +1,5 @@
 # ChatRoomOnline
-[中文](https://github.com/xiarimangguo/ChatRoomOnline/blob/master/README-CN.md)
+[中文](https://github.com/xiarimangguo/ChatRoomOnline/blob/master/README/README-CN.md)
 ## About
 *###The project was developed and completed on August 21, 2020.###*  
 This is a web chat room developed using `ASP`.  
@@ -19,6 +19,7 @@ Such As:
 - [x] Chat With Friends
 - [x] Delete Friends
 - [x] Find Friends
+- [x] Multi-Language Support
 - [ ] Create Groups
 - [ ] User Cancellation  
 
