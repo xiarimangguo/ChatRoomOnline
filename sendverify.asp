@@ -7,7 +7,7 @@
 Num = Request.Form("Num")
 Unm = Request.Form("Unm")
 Set Dbc = Server.CreateObject("Adodb.Connection")
-Ctr = "provider=sqloledb;server=den1.mssql8.gear.host;database=cooles;uid=cooles;pwd=Rs5A9K~?JWw2;"
+Ctr = "provider=sqloledb;server=den1.mssql8.gear.host;database=;uid=;pwd=;"
 Set Rs = Server.CreateObject("Adodb.RecordSet")
 Snd_Vrf = "insert into Verifies_"&Num&" values('"&Session("UserNums")&"','"&Session("UserName")&"','','Verify')"
 Rs.Open Snd_Vrf,Ctr,1,3
