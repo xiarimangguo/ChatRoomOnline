@@ -76,7 +76,19 @@ Response.Cookies("Lge").Path = "/login/"
 End Select
 %>
 <%
-Response.Write "Completed your registration. <a href='http://fscache20.cooles.top/login/login.html?lge="&Lcd&"'>Go back to login</a>"
+Response.Write "Completed your registration. <a href='http://fscache20.cooles.top/login/login.html?lge="&Lcd&"'>Go to Login</a>"
+Response.Write "<p id='Timer'>Working... <b style='color:red;'>3</b>s</p>"
+%>
+<script type="text/javascript">
+timer = 3;
+function Timers(){
+timer = timer - 1;
+document.getElementById("Timer").innerHTML = "Working... <b style='color:red;'>"+timer+"</b>s";
+}
+var interval = setInterval("Timers()",1000);
+setTimeout("clearInterval(interval);window.location.href='http://fscache20.cooles.top/login/login.html';",2950);
+</script>
+<%
 Response.End
 Rs2.Close
 Rs.Close
