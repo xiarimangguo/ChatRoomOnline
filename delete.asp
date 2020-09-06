@@ -23,7 +23,7 @@ Response.Write "Failed deletion. <a href='javascript:history.go(-1);'>Retry</a>"
 Response.End
 End If
 Set Dbc = Server.CreateObject("Adodb.Connection")
-Ctr = "provider=sqloledb;server=den1.mssql8.gear.host;database=cooles;uid=cooles;pwd=Rs5A9K~?JWw2;"
+Ctr = "provider=sqloledb;server=den1.mssql8.gear.host;database=;uid=;pwd=;"
 Set Rs = Server.CreateObject("Adodb.RecordSet")
 Clk_Pwd = "select UserName,PassWord from Users where UserName = '"&Session("UserName")&"' and PassWord = '"&Pwd&"'"
 Rs.Open Clk_Pwd,Ctr,1,1
