@@ -6,7 +6,7 @@
 <%
 Orders = Request.Form("Orders")
 Set Dbc = Server.CreateObject("Adodb.Connection")
-Ctr = "provider=sqloledb;server=den1.mssql8.gear.host;database=cooles;uid=cooles;pwd=Rs5A9K~?JWw2;"
+Ctr = "provider=sqloledb;server=den1.mssql8.gear.host;database=;uid=;pwd=;"
 Set Rs = Server.CreateObject("Adodb.RecordSet")
 Get_Inf = "select * from Verifies_"&Session("UserNums")&" where Orders = "&Orders
 Rs.Open Get_Inf,Ctr,1,1
