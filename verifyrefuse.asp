@@ -6,7 +6,7 @@
 <%
 Orders = Request.Form("Orders")
 Set Dbc = Server.CreateObject("Adodb.Connection")
-Ctr = "provider=sqloledb;server=den1.mssql8.gear.host;database=cooles;uid=cooles;pwd=Rs5A9K~?JWw2;"
+Ctr = "provider=sqloledb;server=den1.mssql8.gear.host;database=;uid=;pwd=;"
 Set Rs = Server.CreateObject("Adodb.RecordSet")
 Upd_ST = "update Verifies_"&Session("UserNums")&" set States = 'Refused' where Orders = "&Orders
 Rs.Open Upd_ST,Ctr,1,3
