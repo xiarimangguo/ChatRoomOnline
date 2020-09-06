@@ -27,7 +27,7 @@ Response.Write "Invalid UserName. <a href='javascript:history.go(-1);'>Retry</a>
 Response.End
 End If
 Set Dbc = Server.CreateObject("Adodb.Connection")
-Ctr = "provider=sqloledb;server=den1.mssql8.gear.host;database=cooles;uid=cooles;pwd=Rs5A9K~?JWw2;"
+Ctr = "provider=sqloledb;server=den1.mssql8.gear.host;database=;uid=;pwd=;"
 Set Rs = Server.CreateObject("Adodb.RecordSet")
 Clk_Unm = "select UserName from Users where UserName = '"&Unm&"'"
 Rs.Open Clk_Unm,Ctr,1,1
