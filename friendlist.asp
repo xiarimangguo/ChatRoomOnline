@@ -146,7 +146,7 @@ End Select
 %>
 <%
 Set Dbc = Server.CreateObject("Adodb.Connection")
-Ctr = "provider=sqloledb;server=den1.mssql8.gear.host;database=cooles;uid=cooles;pwd=Rs5A9K~?JWw2;"
+Ctr = "provider=sqloledb;server=den1.mssql8.gear.host;database=;uid=;pwd=;"
 Set Rs = Server.CreateObject("Adodb.RecordSet")
 Show_Ols = "SELECT UserName FROM Friends_"&Session("UserNums")&" ORDER BY Orders"
 Rs.Open Show_Ols,Ctr,1,1
