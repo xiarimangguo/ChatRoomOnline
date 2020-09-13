@@ -27,6 +27,4 @@ Such As:
 Welcome to my online chat room!!!    
 This is the Demo of [`ChatRoomOnline`](http://fscache20.cooles.top/login/login.html?lge=en-us).    
 <br />
-Because the time is limited, there is no further modification of the page, it may be a little crude, please don't mind.  
-<br />
-Enjoy your visit!
+Look forward to your visit!
