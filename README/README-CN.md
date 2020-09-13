@@ -27,6 +27,4 @@
 欢迎来到我的在线聊天室！！！    
 这是一个演示地址 [`ChatRoomOnline`](http://fscache20.cooles.top/login/login.html?lge=zh-cn)    
 <br />
-因为时间有限，所以没有进一步修饰页面，可能有些简陋，请不要介意哦。  
-<br />
 期待您的到来！
